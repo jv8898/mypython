@@ -1,0 +1,65 @@
+
+jalla@Vijay MINGW64 /c
+$ cd workspace
+
+jalla@Vijay MINGW64 /c/workspace
+$ cd java
+
+jalla@Vijay MINGW64 /c/workspace/java (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        vijay/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+jalla@Vijay MINGW64 /c/workspace/java (main)
+$ ^C
+
+jalla@Vijay MINGW64 /c/workspace/java (main)
+$ git add .
+
+jalla@Vijay MINGW64 /c/workspace/java (main)
+$ git commit "MySub added"
+error: pathspec 'MySub added' did not match any file(s) known to git
+
+jalla@Vijay MINGW64 /c/workspace/java (main)
+$ git commit -m "MySub added"
+[main 55737a6] MySub added
+ 1 file changed, 2 insertions(+)
+ create mode 100644 vijay/''MySub.java''
+
+jalla@Vijay MINGW64 /c/workspace/java (main)
+$ git push
+remote: Permission to Narayanaj/java.git denied to jv8898.
+fatal: unable to access 'https://github.com/Narayanaj/java.git/': The requested URL returned error: 403
+
+jalla@Vijay MINGW64 /c/workspace/java (main)
+$ git push
+fatal: helper error (-1): User cancelled dialog.
+error: unable to read askpass response from 'C:/Program Files/Git/mingw64/bin/git-askpass.exe'
+Username for 'https://github.com': jv8898
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/Narayanaj/java.git/'
+
+jalla@Vijay MINGW64 /c/workspace/java (main)
+$ git push
+remote: Permission to Narayanaj/java.git denied to jv8898.
+fatal: unable to access 'https://github.com/Narayanaj/java.git/': The requested URL returned error: 403
+
+jalla@Vijay MINGW64 /c/workspace/java (main)
+$ git push
+remote: Permission to Narayanaj/java.git denied to jv8898.
+fatal: unable to access 'https://github.com/Narayanaj/java.git/': The requested URL returned error: 403
+
+jalla@Vijay MINGW64 /c/workspace/java (main)
+$ git push
+remote: Permission to Narayanaj/java.git denied to jv8898.
+fatal: unable to access 'https://github.com/Narayanaj/java.git/': The requested URL returned error: 403
+
+jalla@Vijay MINGW64 /c/workspace/java (main)
+$
